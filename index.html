@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="bgCalculator">
+      <div id="display">
+        <input disabled id="displayNumber" />
+      </div>
+      <div id="calculatorBody">
+        <div id="keys">
+          <input
+            type="button"
+            value="C"
+            onclick="clearScreen()"
+            class="operators"
+          />
+          <input
+            type="button"
+            value="/"
+            onclick="addOnDisplay('/')"
+            class="operators"
+          />
+          <input
+            type="button"
+            value="*"
+            onclick="addOnDisplay('*')"
+            class="operators"
+          />
+          <input
+            type="button"
+            value="-"
+            onclick="addOnDisplay('-')"
+            class="operators"
+          />
+          <input
+            type="button"
+            value="7"
+            onclick="addOnDisplay('7')"
+            class="numbers"
+          />
+          <input
+            type="button"
+            value="8"
+            onclick="addOnDisplay('8')"
+            class="numbers"
+          />
+          <input
+            type="button"
+            value="9"
+            onclick="addOnDisplay('9')"
+            class="numbers"
+          />
+          <input
+            type="button"
+            value="+"
+            onclick="addOnDisplay('+')"
+            class="operators"
+          />
+          <input
+            type="button"
+            value="4"
+            onclick="addOnDisplay('4')"
+            class="numbers"
+          />
+          <input
+            type="button"
+            value="5"
+            onclick="addOnDisplay('5')"
+            class="numbers"
+          />
+          <input
+            type="button"
+            value="6"
+            onclick="addOnDisplay('6')"
+            class="numbers"
+          />
+          <input
+            type="button"
+            value="="
+            onclick="answerBtn('=')"
+            class="operators"
+          />
+          <input
+            type="button"
+            value="1"
+            onclick="addOnDisplay('1')"
+            class="numbers"
+          />
+          <input
+            type="button"
+            value="2"
+            onclick="addOnDisplay('2')"
+            class="numbers"
+          />
+          <input
+            type="button"
+            value="3"
+            onclick="addOnDisplay('3')"
+            class="numbers"
+          />
+          <input
+            type="button"
+            value="0"
+            onclick="addOnDisplay('0')"
+            class="numbers"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
