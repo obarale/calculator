@@ -14,7 +14,7 @@ body {
   height: fit-content;
   padding: 20px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  margin: 50px;
+  margin-top: 50px;
 }
 
 #display {
@@ -86,28 +86,15 @@ body {
 }
 
 @media (max-width: 310px) {
-    .numbers {
+    .numbers, .operators {
         width: 40px;
         height: 40px;
-        border: none;
-        border-radius: 25px;
-        margin: 5px;
-        font-size: 30px;
-        background-color: white;
-        color: rgb(204, 72, 72);
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-      }
-
-      .operators {
-        width: 40px;
-        height: 40px;
-        border: none;
-        border-radius: 25px;
-        margin: 5px;
-        font-size: 30px;
-        background-color: rgb(255, 160, 71);
-        color: white;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-      }
+    }
   }
-}
+
+  @media (max-width: 270px) {
+    .numbers, .operators {
+        width: 35px;
+        height: 35px;
+    }
+  }
