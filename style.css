@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(51, 57, 77);
+  background-color: rgb(61, 59, 90);
   color: white;
   font-family: Arial, sans-serif;
   display: flex;
@@ -9,7 +9,7 @@ body {
 }
 
 #bgCalculator {
-  background-color: rgb(87, 134, 134);
+  background-color: rgb(87, 107, 134);
   border-radius: 15px;
   width: 255px;
   height: auto;
@@ -83,4 +83,31 @@ body {
 .numbers:active {
   background-color: rgb(51, 11, 88);
   color: rgb(255, 255, 255);
+}
+
+@media (max-width: 310px) {
+    .numbers {
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 25px;
+        margin: 5px;
+        font-size: 30px;
+        background-color: white;
+        color: rgb(204, 72, 72);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      }
+
+      .operators {
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 25px;
+        margin: 5px;
+        font-size: 30px;
+        background-color: rgb(255, 160, 71);
+        color: white;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      }
+  }
 }
